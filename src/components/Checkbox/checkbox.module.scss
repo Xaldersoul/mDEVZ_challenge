@@ -1,0 +1,31 @@
+.regularCheckbox {
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 2px solid #CDCDC9;
+	box-shadow: 0;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+  margin-right: 1rem;
+  transition: all .2s linear;
+  &:checked{
+    background: #929292 ;
+	  border: 2px solid #929292 ;
+	  color: #240930;
+  }
+  &:checked:after{
+    content: '\2714';
+	  font-size: 1rem;
+	  position: absolute;
+	  top: -2px;
+	  left: 3px;
+	  color: #240930;
+  }
+}
+
+.main{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}

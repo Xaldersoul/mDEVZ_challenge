@@ -1,0 +1,27 @@
+.radio{
+  -webkit-appearance: none;
+	background-color: transparent;
+	border: 2px solid #CDCDC9;
+	box-shadow: 0;
+	padding: .5rem;
+	border-radius: 1rem;
+	display: inline-block;
+  margin-right: 1rem;
+  transition: all .2s linear;
+  }
+  .radio:checked{
+    background: #01A615;
+    border: 2px solid #01A615;
+  }
+
+.label{
+  color: #01A615;
+  font-size: 1.1rem;
+}
+
+.adjust{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: .5rem 0;
+}
